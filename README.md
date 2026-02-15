@@ -52,7 +52,7 @@ ROLES = (DBA);
 
 Below is the screenshot showing the successful creation of the Pluggable Database (PDB):
 
-![Screenshot Evidence of PDB Creation](https://github.com/Benie126/oracle_pdb_ass_II_28821_benie/blob/main/screenshots/pdb_created.PNG?raw=true)
+![image alt](https://github.com/Benie126/oracle_pdb_ass_II_28821_benie/blob/main/screenshots/pdb_created.PNG?raw=true)
 
 
 
