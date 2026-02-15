@@ -55,7 +55,7 @@ After creation, it was important to **open the PDB** to make it accessible for c
 Once the PDB was open, we created the student user `benie_plsqlauca_28821` inside the PDB. This user will be used for all course-related tasks. Proper privileges were assigned, and the creation was confirmed by verifying the user’s presence inside the PDB.  
 
 **Evidence – Student User Creation Screenshot:**  
-![image alt]()
+![image alt](https://github.com/Benie126/oracle_pdb_ass_II_28821_benie/blob/ce38138d30ef9ff5ef251a39e8ddf3f4ffde9377/screenshots/new-user-created.PNG)
 
 ---
 
@@ -66,7 +66,8 @@ Once the PDB was open, we created the student user `benie_plsqlauca_28821` insid
 To demonstrate database management, a temporary PDB `be_to_delete_pdb_28821` was created. This step mimicked a real-life scenario where a temporary workspace is needed for testing or experimentation.  
 
 **Evidence – Temporary PDB Creation Screenshot:**  
-![image alt]()
+![image alt](https://github.com/Benie126/oracle_pdb_ass_II_28821_benie/blob/ce38138d30ef9ff5ef251a39e8ddf3f4ffde9377/screenshots/pdb-to-delete-created.PNG
+)
 
 ---
 
@@ -75,7 +76,7 @@ To demonstrate database management, a temporary PDB `be_to_delete_pdb_28821` was
 After confirming the temporary PDB’s creation, it was **dropped completely** from the system to ensure it no longer existed. This step was essential to show proper cleanup and resource management.  
 
 **Evidence – Temporary PDB Deletion Screenshot:**  
-![image alt]()
+![image alt](https://github.com/Benie126/oracle_pdb_ass_II_28821_benie/blob/ce38138d30ef9ff5ef251a39e8ddf3f4ffde9377/screenshots/pdb-to-delete-dropped.PNG)
 
 ---
 
@@ -89,7 +90,8 @@ Finally, the Oracle Enterprise Manager dashboard was accessed to **verify and mo
 This step validates the proper state of the Oracle environment visually.  
 
 **Evidence – OEM Dashboard Screenshot:**  
-![image alt]()
+![image alt](https://github.com/Benie126/oracle_pdb_ass_II_28821_benie/blob/ce38138d30ef9ff5ef251a39e8ddf3f4ffde9377/screenshots/eom1.PNG)
+![image alt](https://github.com/Benie126/oracle_pdb_ass_II_28821_benie/blob/ce38138d30ef9ff5ef251a39e8ddf3f4ffde9377/screenshots/eom2.PNG)
 
 ---
 
