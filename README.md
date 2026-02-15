@@ -46,7 +46,7 @@ The first step involved creating the pluggable database `be_pdb_28821`. This all
 After creation, it was important to **open the PDB** to make it accessible for connections and operations. Opening the PDB confirms that the database is in a ready-to-use state. This was verified by checking its status in SQL Developer (open mode) which showed read write.
 
 **Evidence – PDB Open State Screenshot:**  
-![image alt]()
+![image alt](https://github.com/Benie126/oracle_pdb_ass_II_28821_benie/blob/e22259c4904ada0947c45563c4736369b0df6afc/screenshots/pdb-open-mode.PNG)
 
 ---
 
