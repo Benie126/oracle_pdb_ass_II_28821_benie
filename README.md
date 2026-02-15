@@ -43,7 +43,7 @@ Screenshots are provided to evidence successful completion of each task.
 2. Enabled OMF for automatic file management
 3. Created the PDB using:
 
-```sql
+
 CREATE PLUGGABLE DATABASE be_pdb_28821
 ADMIN USER pdbadmin IDENTIFIED BY admin123
 ROLES = (DBA);
