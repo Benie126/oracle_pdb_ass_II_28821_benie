@@ -37,7 +37,7 @@ All tasks include screenshots as evidence for transparency and verification.
 The first step involved creating the pluggable database `be_pdb_28821`. This allowed us to have a separate container inside the Oracle CDB for coursework. The PDB was successfully created and ready to be opened.  
 
 **Evidence – PDB Creation Screenshot:**  
-![PDB Creation](screenshots/pdb_created.png)
+![image alt]()
 
 ---
 
