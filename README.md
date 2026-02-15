@@ -48,6 +48,8 @@ CREATE PLUGGABLE DATABASE be_pdb_28821
 ADMIN USER pdbadmin IDENTIFIED BY admin123
 ROLES = (DBA);
 
+---
+
 # Screenshot Evidence of PDB Creation
 
 Below is the screenshot showing the successful creation of the Pluggable Database (PDB):
