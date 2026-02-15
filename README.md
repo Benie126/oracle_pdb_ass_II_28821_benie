@@ -1,6 +1,6 @@
 # oracle_pdb_ass_II_28821_benie
 
-# Oracle Pluggable Database Assignment II
+# Oracle Pluggable Database MANAGEMENT (Assignment II)
 
 **Student Name:** GWIRA UWAMAHORO Benie Kelia  
 **Student ID:** 28821  
@@ -95,13 +95,15 @@ This step validates the proper state of the Oracle environment visually.
 
 ---
 
-## Challenges Faced and Solutions
+## Challenges Faced and How They Were Solved
 
-| Challenge | Solution |
-|-----------|---------|
-| File creation conflicts during PDB creation | Enabled Oracle Managed Files (OMF) to automatically handle file storage |
-| Error when closing already closed PDB | Verified PDB status using system views before performing deletion |
-| Displaying student username in OEM | Navigated to Users/Sessions under the PDB in the dashboard for confirmation |
+| Challenge | Explanation | Solution |
+|-----------|------------|---------|
+| File creation conflicts during PDB creation | When creating a new PDB, Oracle was unable to automatically assign file locations for the datafiles, which caused conflicts and errors. This typically happens when Oracle Managed Files (OMF) is not enabled, or the specified directories are not properly set. | Enabled Oracle Managed Files (OMF) by setting `db_create_file_dest` to a valid directory. This allowed Oracle to automatically manage the datafile locations, avoiding naming conflicts and errors. |
+| Error when closing an already closed PDB | While attempting to close a temporary PDB, an error occurred because the database was already in a closed state. This can happen if the system assumes the PDB is open when it is not. | Checked the current state of the PDB using system views (`V$PDBS`) before performing any close or drop operations. This ensured safe deletion without unnecessary errors. |
+| Displaying student username in OEM | Initially, the student user created inside the PDB did not appear on the OEM dashboard, causing difficulty in providing evidence for task verification. This happens because OEM sometimes requires navigating to the correct PDB container to see user details. | Accessed the correct PDB in OEM and navigated to the **Users/Sessions** section to confirm that the student user `benie_plsqlauca_28821` was properly created and visible on the dashboard. |
+| Understanding temporary PDB deletion | Deleting a temporary PDB requires careful handling to ensure that all datafiles are also removed. There was a concern that residual files could remain, taking up space and causing confusion. | Used the “DROP PLUGGABLE DATABASE … INCLUDING DATAFILES” approach to ensure complete removal of the PDB and all associated files, confirming deletion by rechecking the PDB list. |
+
 
 ---
 
@@ -118,7 +120,7 @@ I hereby declare that this work is entirely my own. All tasks were completed per
 - [x] Temporary PDB created and deleted: `be_to_delete_pdb_28821`  
 - [x] OEM dashboard screenshot included  
 - [x] GitHub repository is public  
-- [x] README is clear, professional, and comprehensive  
+- [x] README is clear and professiona  
 - [x] Assignment submission deadline respected
 
 
