@@ -42,8 +42,8 @@ Screenshots are provided to evidence successful completion of each task.
 1. Connected as SYS / SYSDBA in SQL Developer
 2. Enabled OMF for automatic file management
 3. Created the PDB using:
-
-
+   
+```sql
 CREATE PLUGGABLE DATABASE be_pdb_28821
 ADMIN USER pdbadmin IDENTIFIED BY admin123
 ROLES = (DBA);
