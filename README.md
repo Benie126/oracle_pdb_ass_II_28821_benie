@@ -52,7 +52,7 @@ ROLES = (DBA);
 
 Below is the screenshot showing the successful creation of the Pluggable Database (PDB):
 
-![Screenshot Evidence of PDB Creation](screenshots/pdb_created.png)
+![Screenshot Evidence of PDB Creation](screenshots/pdb_created.PNG)
 
 
 
