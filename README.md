@@ -46,7 +46,7 @@ The first step involved creating the pluggable database `be_pdb_28821`. This all
 After creation, it was important to **open the PDB** to make it accessible for connections and operations. Opening the PDB confirms that the database is in a ready-to-use state. This was verified by checking its status in SQL Developer (open mode) which showed read write.
 
 **Evidence – PDB Open State Screenshot:**  
-![PDB Open State](screenshots/task1_pdb_open_state.png)
+![image alt]()
 
 ---
 
@@ -55,7 +55,7 @@ After creation, it was important to **open the PDB** to make it accessible for c
 Once the PDB was open, we created the student user `benie_plsqlauca_28821` inside the PDB. This user will be used for all course-related tasks. Proper privileges were assigned, and the creation was confirmed by verifying the user’s presence inside the PDB.  
 
 **Evidence – Student User Creation Screenshot:**  
-![Student User Creation](screenshots/task1_user_creation.png)
+![image alt]()
 
 ---
 
@@ -66,7 +66,7 @@ Once the PDB was open, we created the student user `benie_plsqlauca_28821` insid
 To demonstrate database management, a temporary PDB `be_to_delete_pdb_28821` was created. This step mimicked a real-life scenario where a temporary workspace is needed for testing or experimentation.  
 
 **Evidence – Temporary PDB Creation Screenshot:**  
-![Temporary PDB Creation](screenshots/task2_temp_pdb_creation.png)
+![image alt]()
 
 ---
 
@@ -75,7 +75,7 @@ To demonstrate database management, a temporary PDB `be_to_delete_pdb_28821` was
 After confirming the temporary PDB’s creation, it was **dropped completely** from the system to ensure it no longer existed. This step was essential to show proper cleanup and resource management.  
 
 **Evidence – Temporary PDB Deletion Screenshot:**  
-![Temporary PDB Deletion](screenshots/task2_temp_pdb_deletion.png)
+![image alt]()
 
 ---
 
@@ -89,7 +89,7 @@ Finally, the Oracle Enterprise Manager dashboard was accessed to **verify and mo
 This step validates the proper state of the Oracle environment visually.  
 
 **Evidence – OEM Dashboard Screenshot:**  
-![OEM Dashboard](screenshots/task3_oem_dashboard.png)
+![image alt]()
 
 ---
 
