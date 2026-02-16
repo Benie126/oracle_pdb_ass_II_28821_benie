@@ -112,6 +112,21 @@ I hereby declare that this work is entirely my own. All tasks were completed per
 
 ---
 
+# Oracle 21c Pluggable Database (PDB) Creation
+
+## Repository Link
+GitHub URL: 
+
+## PDB Name Created
+PDB Name: : be_pdb_28821
+
+## Issues Encountered
+Yes.
+
+During the process of creating and configuring the Pluggable Database (PDB), several issues were encountered,but were able to be solved.
+
+---
+
 ## Final Checklist
 
 - [x] Correct PDB name used: `be_pdb_28821`  
